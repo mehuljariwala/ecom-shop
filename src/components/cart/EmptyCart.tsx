@@ -1,5 +1,5 @@
 import { ShoppingBagIcon } from "@heroicons/react/24/outline";
-import { Button } from "../ui/Button";
+import { Button } from "../ui/button";
 import Link from "next/link";
 
 interface EmptyCartProps {

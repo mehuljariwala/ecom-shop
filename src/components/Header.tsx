@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useSelector, useDispatch } from "react-redux";
-import { Button } from "./ui/Button";
+import { Button } from "./ui/button";
 import {
   ShoppingBagIcon,
   UserIcon,
@@ -120,7 +120,6 @@ const Header = () => {
               <Button
                 variant="outline"
                 size="sm"
-                rounded="full"
                 onClick={() => {
                   /* Will be implemented */
                 }}

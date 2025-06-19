@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "../components/ui/Button";
+import { Button } from "../components/ui/button";
 import { useEffect, useState } from "react";
 
 export default function Home() {

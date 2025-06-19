@@ -13,7 +13,7 @@ import {
   removeFromCart,
   updateQuantity,
 } from "../../store/slices/cartSlice";
-import { Button } from "../ui/Button";
+import { Button } from "../ui/button";
 import CartItem from "./CartItem";
 import EmptyCart from "./EmptyCart";
 

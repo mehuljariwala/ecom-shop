@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { Button } from "./ui/Button";
-import { Input } from "./ui/Input";
+import { Button } from "./ui/button";
+import { Input } from "./ui/input";
 
 // Social Media Icons
 import {
@@ -28,7 +28,6 @@ const Footer = () => {
             <Input
               type="email"
               placeholder="Your email address"
-              fullWidth
               className="flex-grow"
               aria-label="Email for newsletter"
               required

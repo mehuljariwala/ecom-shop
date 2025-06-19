@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import ProductCard from "./ProductCard";
-import { Button } from "../ui/Button";
+import { Button } from "../ui/button";
 
 export interface Product {
   id: string;
@@ -86,7 +86,7 @@ const ProductGrid = ({
         </p>
         <Button
           variant="outline"
-          rounded="full"
+          className="rounded-full"
           onClick={() => window.history.back()}
         >
           Go Back
@@ -136,9 +136,8 @@ const ProductGrid = ({
           <Button
             variant="outline"
             size="lg"
-            rounded="full"
             onClick={loadMore}
-            className="mx-auto"
+            className="rounded-full mx-auto"
           >
             Load More
           </Button>
