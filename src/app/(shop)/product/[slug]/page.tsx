@@ -8,15 +8,18 @@ import { HeartIcon } from "@heroicons/react/24/outline";
 import { HeartIcon as HeartIconSolid } from "@heroicons/react/24/solid";
 import { ShoppingBagIcon } from "@heroicons/react/24/outline";
 import { useDispatch } from "react-redux";
-import { getProductBySlug, getRelatedProducts } from "../../../data/products";
+import {
+  getProductBySlug,
+  getRelatedProducts,
+} from "../../../../data/products";
 import {
   getProductReviews,
   getProductAverageRating,
-} from "../../../data/reviews";
-import { addToCart } from "../../../store/slices/cartSlice";
-import { showToast } from "../../../store/slices/uiSlice";
-import ProductGrid from "../../../components/product/ProductGrid";
-import ReviewSection from "../../../components/product/ReviewSection";
+} from "../../../../data/reviews";
+import { addToCart } from "../../../../store/slices/cartSlice";
+import { showToast } from "../../../../store/slices/uiSlice";
+import ProductGrid from "../../../../components/product/ProductGrid";
+import ReviewSection from "../../../../components/product/ReviewSection";
 
 // Common size options
 const sizes = ["XS", "S", "M", "L", "XL"];

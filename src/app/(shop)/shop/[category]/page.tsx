@@ -1,8 +1,8 @@
 "use client";
 
 import { useParams } from "next/navigation";
-import { getProductsByCategory } from "../../../data/products";
-import ProductGrid from "../../../components/product/ProductGrid";
+import { getProductsByCategory } from "../../../../data/products";
+import ProductGrid from "../../../../components/product/ProductGrid";
 import Link from "next/link";
 
 // Category metadata for page titles and descriptions

@@ -9,16 +9,16 @@ import {
   selectCartTotal,
   clearCart,
   addToCart,
-} from "../../store/slices/cartSlice";
-import { selectIsAuthenticated } from "../../store/slices/authSlice";
-import { showToast } from "../../store/slices/uiSlice";
-import CheckoutSteps from "../../components/checkout/CheckoutSteps";
-import OrderSummary from "../../components/checkout/OrderSummary";
-import LoginForm from "../../components/checkout/LoginForm";
-import GuestForm from "../../components/checkout/GuestForm";
-import ShippingForm from "../../components/checkout/ShippingForm";
-import PaymentForm from "../../components/checkout/PaymentForm";
-import OrderConfirmation from "../../components/checkout/OrderConfirmation";
+} from "../../../store/slices/cartSlice";
+import { selectIsAuthenticated } from "../../../store/slices/authSlice";
+import { showToast } from "../../../store/slices/uiSlice";
+import CheckoutSteps from "../../../components/checkout/CheckoutSteps";
+import OrderSummary from "../../../components/checkout/OrderSummary";
+import LoginForm from "../../../components/checkout/LoginForm";
+import GuestForm from "../../../components/checkout/GuestForm";
+import ShippingForm from "../../../components/checkout/ShippingForm";
+import PaymentForm from "../../../components/checkout/PaymentForm";
+import OrderConfirmation from "../../../components/checkout/OrderConfirmation";
 
 // Checkout steps
 const STEPS = {

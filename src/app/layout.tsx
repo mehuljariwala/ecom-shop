@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css"; // Using shadcn/ui CSS
 import StoreProvider from "../providers/StoreProvider";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import { Toaster } from "../components/ui/toaster";
 import ToastNotification from "../components/ui/ToastNotification";
 import Cart from "../components/cart/Cart";
@@ -36,12 +34,10 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
       <body className="min-h-screen flex flex-col font-sans">
         <StoreProvider>
-          <Header />
-          <main className="flex-grow">{children}</main>
-          <Footer />
           <ToastNotification />
           <Toaster />
           <Cart />
+          {children}
         </StoreProvider>
       </body>
     </html>
